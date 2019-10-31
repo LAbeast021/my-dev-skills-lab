@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;  
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 3%; */
+    width: 100%;
+    height: 60px;
+    background: rgb(144, 196, 92);
+    border:3px solid greenyellow;
+    font: bold 30px red;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: gray;
+    /* height: 1000px; */
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: auto;
+    margin: 5%;
+    transform: translate(-50% -50%);
+    border: 4px solid black;
+    background:pink;
+    
+}
+.sbmit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid red;
+    width: 100%;
+    height: auto;
+    margin-top: 30%;
+    background:rgb(228, 152, 38);
+}
+input{
+    width: 60%;
+    height: 10%;
+    font-size: 20px;
+    outline: 5px red;
+    background:rgb(79, 86, 184);
+}
+.result{
+    border: 4px solid purple;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;  
+    background:rgb(192, 17, 55);
+}
+.result h4{
+    height: auto;
+    background:rgb(189, 192, 17);
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
+.btn-info{
+    background-color: rgb(189, 41, 41);
+    margin-bottom: 2%;;
+    outline: none;
+}
+.skills{
+    display: flex;
+    justify-content: left space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 4px solid purple;
+}
