@@ -47,20 +47,21 @@ input{
     height: 10%;
     font-size: 20px;
     outline: 5px red;
-    background:rgb(79, 86, 184);
+    background:rgb(160, 164, 214);
 }
 .result{
     border: 4px solid purple;
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;  
     background:rgb(192, 17, 55);
 }
 .result h4{
     height: auto;
-    background:rgb(189, 192, 17);
+    background:rgb(233, 235, 166);
+    margin-left: 5px;
 }
 /* /////////////////////////////////////////////////////////////////////////////// */
 .btn-info{
